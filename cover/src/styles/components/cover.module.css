@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  background-color: #000000;
+  color: #6C6E70;
+}
+
+.container p {
+  font-family: Graphik, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: -0.36px;
+  width: 100%;
+  max-width: 1137px;
+  margin: 0 auto;
+  padding: 0 30px 30px;
+}
+
+.container .cover {
+    max-width: 684px;
+    height: auto;
+    margin: 0 auto;
+    padding: 64px;
+}
+
+@media only screen and (max-width: 480px) {
+  .container .cover {
+    padding: 55px 55px 26px;
+}
+  .container p {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+  }
+}

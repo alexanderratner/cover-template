@@ -1,0 +1,33 @@
+{
+  "slides": [
+    {
+      "id": "slide-1-1",
+      "name": "Profile",
+      "image": "../assets/03.jpg",
+      "alttext": "Profile shot of K-pop star JB wearing gelled hair and gray-blue suit jacket for Allure's 2020 digital cover photoshoot"
+    },
+    {
+      "name": "Headshot",
+      "id": "k5swlxx1a",
+      "image": "../assets/04.jpg",
+      "alttext": "Headshot of K-pop star JB wearing plaid suit jacket and looking at camera for Allure's 2020 digital cover photoshoot"
+    },
+    {
+      "id": "slide-2-1",
+      "name": "Wide shot",
+      "image": "../assets/08.jpg",
+      "alttext": "Wide shot of K-pop star JB wearing black leather jacket and black jeans for Allure's 2020 digital cover photoshoot"
+    },
+    {
+      "id": "slide-3-1",
+      "name": "Cover",
+      "image": "../assets/02.jpg",
+      "alttext": "K-pop star JB wears fuzzy green sweater, gelled hair, brown eyeshadow, and a nostril piercing for Allure's 2020 digital cover photoshoot"
+    }
+  ],
+  "title": "Slide Show 1",
+  "caption": "Above: Mikhael Kale dress. Sylvie Corbelin earrings. Sarah Hendler, Never Not, and Brent Neale rings. Makeup colors: TruNaked Eye Shadow Palette in Sunset and in Dazed and Clean Fresh Tinted Lip Oil in Quench by CoverGirl. Details, see allure.com. Opposite, makeup colors: TruNaked Eye Shadow Palette in Dazed, Exhibitionist Uncensored Mascara in Extreme Black, and Cheekers Blush in Brick Rose.",
+  "__gatsby_resolved": {
+    "fileRelativePath": "/content/data/3-slideshow-1.json"
+  }
+}

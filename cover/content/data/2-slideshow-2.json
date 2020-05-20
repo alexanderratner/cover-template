@@ -1,0 +1,33 @@
+{
+  "slides": [
+    {
+      "id": "slide-1-2",
+      "name": "Hand Up",
+      "image": "../assets/05.jpg",
+      "alttext": "Silhouette portrait of K-pop star JB of GOT7 dancing in front of a red-orange ombre background for Allure's 2020 digital cover photoshoot"
+    },
+    {
+      "id": "slide-2-2",
+      "name": "Fist",
+      "image": "../assets/06.jpg",
+      "alttext": "Silhouette portrait of K-pop star JB of GOT7 dancing in front of a red-orange ombre background for Allure's 2020 digital cover photoshoot"
+    },
+    {
+      "id": "slide-3-2",
+      "name": "Twist",
+      "image": "../assets/07.jpg",
+      "alttext": "Silhouette portrait of K-pop star JB of GOT7 dancing in front of a red-orange ombre background for Allure's 2020 digital cover photoshoot"
+    },
+    {
+      "id": "xuu7nxszl",
+      "name": "Portrait",
+      "image": "../assets/01.jpg",
+      "alttext": "Portrait of K-pop star JB of GOT7 wearing off-white jacket and colored contact lenses for Allure's 2020 digital cover photoshoot"
+    }
+  ],
+  "title": "Slide Show 2",
+  "caption": "Above: Mikhael Kale dress. Sylvie Corbelin earrings. Sarah Hendler, Never Not, and Brent Neale rings. Makeup colors: TruNaked Eye Shadow Palette in Sunset and in Dazed and Clean Fresh Tinted Lip Oil in Quench by CoverGirl. Details, see allure.com. Opposite, makeup colors: TruNaked Eye Shadow Palette in Dazed, Exhibitionist Uncensored Mascara in Extreme Black, and Cheekers Blush in Brick Rose.",
+  "__gatsby_resolved": {
+    "fileRelativePath": "/content/data/2-slideshow-2.json"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "product-1",
+      "image": "../assets/product.jpg",
+      "brand": "VICTORIA BECKHAM",
+      "name": "MOISTURIZER SERUM",
+      "price": "$XXX",
+      "link": "https://allure.com"
+    },
+    {
+      "id": "product-2",
+      "image": "../assets/product.jpg",
+      "brand": "VICTORIA BECKHAM",
+      "name": "MOISTURIZER SERUM",
+      "price": "$XXX",
+      "link": "https://allure.com"
+    },
+    {
+      "id": "product-3",
+      "image": "../assets/product.jpg",
+      "brand": "VICTORIA BECKHAM",
+      "name": "MOISTURIZER SERUM",
+      "price": "$XXX",
+      "link": "https://allure.com"
+    },
+    {
+      "id": "product-4",
+      "image": "../assets/product.jpg",
+      "brand": "VICTORIA BECKHAM",
+      "name": "MOISTURIZER SERUM",
+      "price": "$XXX",
+      "link": "https://allure.com"
+    }
+  ],
+  "title": "Shop The Story",
+  "__gatsby_resolved": {
+    "fileRelativePath": "/content/data/1-shop-list.json"
+  }
+}

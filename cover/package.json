@@ -1,0 +1,54 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@wardpeet/gatsby-plugin-static-site": "^0.2.3",
+    "autoprefixer": "^9.8.0",
+    "gatsby": "^2.22.3",
+    "gatsby-image": "^2.4.5",
+    "gatsby-plugin-json-remark": "^1.1.0",
+    "gatsby-plugin-postcss": "^2.3.2",
+    "gatsby-plugin-sharp": "^2.6.8",
+    "gatsby-plugin-tinacms": "^0.1.38",
+    "gatsby-remark-copy-linked-files": "^2.3.3",
+    "gatsby-remark-images": "^3.3.7",
+    "gatsby-remark-normalize-paths": "^1.0.0",
+    "gatsby-remark-relative-images": "^0.3.0",
+    "gatsby-source-filesystem": "^2.3.7",
+    "gatsby-tinacms-git": "^0.4.12",
+    "gatsby-tinacms-json": "^0.8.23",
+    "gatsby-tinacms-remark": "^0.7.19",
+    "gatsby-transformer-json": "^2.4.3",
+    "gatsby-transformer-remark": "^2.8.12",
+    "gatsby-transformer-sharp": "^2.5.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-div-100vh": "^0.3.8",
+    "react-dom": "^16.13.1",
+    "react-slick": "^0.25.2",
+    "shelljs": "^0.8.4",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

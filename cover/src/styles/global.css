@@ -1,0 +1,122 @@
+/*
+
+                    ,`,`,`,`,
+. . . .               `\`\`\`\;
+`\`\`\`\`,            ~|;!;!;\!
+ ~\;\;\;\|\          (--,!!!~`!       .
+(--,\\\===~\         (--,|||~`!     ./
+ (--,\\\===~\         `,-,~,=,:. _,//
+  (--,\\\==~`\        ~-=~-.---|\;/J,
+   (--,\\\((```==.    ~'`~/       a |
+     (-,.\\('('(`\\.  ~'=~|     \_.  \
+        (,--(,(,(,'\\. ~'=|       \\_;>
+          (,-( ,(,(,;\\ ~=/        \
+          (,-/ (.(.(,;\\,/          )
+           (,--/,;,;,;,\\         ./------.
+             (==,-;-'`;'         /_,----`. \
+     ,.--_,__.-'                    `--.  ` \
+    (='~-_,--/        ,       ,!,___--. \  \_)
+   (-/~(     |         \   ,_-         | ) /_|
+   (~/((\    )\._,      |-'         _,/ /
+    \\))))  /   ./~.    |           \_\;
+ ,__/////  /   /    )  /
+  '===~'   |  |    (, <.
+           / /       \. \
+         _/ /          \_\
+        /_!/            >_\
+
+*/
+
+@import "./fonts.css";
+@import "./reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+  background-color: #ffffff;
+}
+
+/* .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  } */
+
+a {
+  text-decoration: underline;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+
+img {
+  display: block;
+}
+
+.ad__slot.ad__slot--mid-content {
+  border-top: 5px solid #979797;
+  border-bottom: 5px solid #979797;
+  padding: 30px 0;
+  margin: 80px 90px 0;
+}
+
+.cover-template {
+  width: 100%;
+  height: auto;
+}
+
+.container-slideshow {
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  color: #6C6E70;
+}
+
+.container-slideshow p {
+  font-family: Graphik, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  width: 100%;
+  max-width: 1137px;
+  margin: 0 auto;
+  padding: 25px 30px 26px;
+}
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+
+.slick-slide {
+  opacity: 0.6;
+  transition: opacity 300ms ease-in 300ms;
+}
+
+.slick-slide.slick-current {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 480px) {
+  .ad__slot.ad__slot--mid-content {
+    border-top: 5px solid #979797;
+    border-bottom: 5px solid #979797;
+    padding: 30px 0;
+    margin: 40px 30px 0;
+  }
+  .container-slideshow p {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    padding: 21px 30px 26px;
+  }
+}

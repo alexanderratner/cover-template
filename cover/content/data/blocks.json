@@ -1,0 +1,30 @@
+{
+  "blocks": [
+    {
+      "cover_image": "../assets/test.png",
+      "alttext": "K-pop star JB wears fuzzy green sweater, gelled hair, brown eyeshadow, and a nostril piercing for Allure's 2020 digital cover photoshoot",
+      "caption": "Above: Kale dress. Sylvie Corbelin earrings. Sarah Hendler, Never Not, and Brent Neale rings. Makeup colors: TruNaked Eye Shadow Palette in Sunset and in Dazed and Clean Fresh Tinted Lip Oil in Quench by CoverGirl. Details, see allure.com. Opposite, makeup colors: TruNaked Eye Shadow Palette in Dazed, Exhibitionist Uncensored Mascara in Extreme Black, and Cheekers Blush in Brick Rose.",
+      "_template": "CoverBlock"
+    },
+    {
+      "slides": [
+        {
+          "id": "slide-1-1",
+          "name": "Profile",
+          "image": "../assets/03.jpg",
+          "alttext": "Profile shot of K-pop star JB wearing gelled hair and gray-blue suit jacket for Allure's 2020 digital cover photoshoot"
+        }
+      ],
+      "title": "Slide Show 1",
+      "caption": "Above: Mikhael Kale dress. Sylvie Corbelin earrings. Sarah Hendler, Never Not, and Brent Neale rings. Makeup colors: TruNaked Eye Shadow Palette in Sunset and in Dazed and Clean Fresh Tinted Lip Oil in Quench by CoverGirl. Details, see allure.com. Opposite, makeup colors: TruNaked Eye Shadow Palette in Dazed, Exhibitionist Uncensored Mascara in Extreme Black, and Cheekers Blush in Brick Rose.",
+      "_template": "SlideshowBlock"
+    },
+    {
+      "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "_template": "CopyBlock"
+    }
+  ],
+  "__gatsby_resolved": {
+    "fileRelativePath": "/content/data/blocks.json"
+  }
+}
