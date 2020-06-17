@@ -1,249 +1,99 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-    <img alt="Cover" src="./content/assets/cover.svg" width="80" />
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
 </p>
 <h1 align="center">
-  Cover Template 2.0
+  Gatsby's blog starter
 </h1>
 
-Cover Template 2.0 is a static site generator ([**Gatsby**](https://www.gatsbyjs.org/)) with a real time edit interface ([**TinaCMS**](https://tinacms.org/)). Easily add/remove elements, customize content, and even insert ad placements all via a beautiful in browser UI! The output is also optimized for interactive override workflow and integration with Copilot.
-<br/>
-<br/>
+Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-## 🤖 Development Environment
+_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
-Before you start building your first Cover Template, you’ll need to make sure that you have installed all required software tools. _**Note:** most of this was copied directly from the [Gatsby docs](https://www.gatsbyjs.org/tutorial/part-zero/)_.
+## 🚀 Quick start
 
-⚠️ If you don't have admin level access on your computer you may have to ask CN Tech for help.
-<br/>
-<br/>
+1.  **Create a Gatsby site.**
 
-### Terminal
-
-Take a moment to locate and open up the command line interface (CLI) for your computer. Depending on which operating system you are using, see [instructions for Mac](http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/).
-<br/>
-<br/>
-
-### Install Node.js
-
-Lets first check to see if Node is installed on your computer. Enter following command into your Terminal:
-
-```shell
-node --version
-```
-
-If it returns `command not found` you'll need to proceed with the following steps.
-<br/>
-<br/>
-
-- **Install Homebrew**
-
-  To install Gatsby and Node.js on a Mac, it is recommended to use [Homebrew](https://brew.sh/). A little set-up in the beginning can save you from some headaches later on!
-
-  1.  Open your Terminal.
-
-  2.  To see if Homebrew is installed, type the following:
-
-      ```shell
-      brew -v
-      ```
-
-  3.  If not, download and install [Homebrew with the instructions](https://docs.brew.sh/Installation).
-
-  4.  Once you’ve installed Homebrew, repeat step 2 to verify.
-      <br/>
-      <br/>
-
-- **Install Xcode Command Line Tools**
-
-  1.  Open your Terminal.
-
-  2.  Install Xcode Command line tools by running:
-
-      ```shell
-      xcode-select --install
-      ```
-
-      💡 If that fails, download it [directly from Apple’s site](https://developer.apple.com/download/more/), after signing-in with an Apple developer account.
-
-  3.  After being prompted to start the installation, you’ll be prompted again to accept a software license for the tools to download.
-      <br/>
-      <br/>
-
-- **Install Node**
-
-  1.  Open your Terminal
-
-  2.  Install node with Homebrew.
-
-      ```shell
-      brew install node
-      ```
-      💡 If you don’t want to install it through Homebrew, download the latest Node.js version from [the official Node.js website](https://nodejs.org/en/), double click on the downloaded file and go through the installation process.
-  <br/>
-  <br/>
-
-### Install Git
-
-There are several ways to install Git on a Mac. In fact, if you've installed XCode (or it's Command Line Tools), Git may already be installed. To find out, open a terminal and enter:
-
-```shell
-git --version
-```
-
-If not the easiest way to install Git on a Mac is via the stand-alone installer:
-
-1.  Download the latest [Git for Mac installer](https://sourceforge.net/projects/git-osx-installer/files/).
-
-2.  Follow the prompts to install Git.
-
-3.  Verify the installation was successful by typing:
+    Use the Gatsby CLI to create a new site, specifying the blog starter.
 
     ```shell
-    git --version
+    # create a new Gatsby site using the blog starter
+    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
     ```
 
-4.  Configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create.
+1.  **Start developing.**
+
+    Navigate into your new site’s directory and start it up.
 
     ```shell
-    git config --global user.name "Emma Paris"
-    git config --global user.email "eparis@condenast.com"
-    ```
-
-    💡 For more methods of install checkout out these [docs](https://www.atlassian.com/git/tutorials/install-git#mac-os-x).
-  <br/>
-  <br/>
-
-### Install the Gatsby CLI
-
-The Gatsby CLI is available via npm and should be installed globally by running:
-
-```shell
-npm install -g gatsby-cli
-```
-
-Check out the available commands.
-
-```shell
-gatsby --help
-```
-
-💡 If you are unable to successfully run the Gatsby CLI due to a permissions issue, you may want to check out the [npm docs on fixing permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions), or [this guide](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md).
-<br/>
-<br/>
-
-## 📂 Create New
-
-Now you are ready to use the Gatsby CLI tool to create your first Gatsby site. Using the tool, you can download this starter and create a new template for your own purposes.
-
-1.  Open up your terminal.
-
-2.  Clone a copy of this starter.
-
-    ```shell
-    gatsby clone https://github.com/CondeNast/allure-interactive-override/tree/master/public/cover-template
-    ```
-
-3.  Then create a new site from the cloned/downloaded starter.
-
-    ```shell
-    gatsby new new-template-name LOCAL_PATH_TO_STARTER
-    ```
-
-    💡 The amount of time this takes will vary.
-    <br/>
-    <br/>
-
-## 🚀 Start
-
-Now that you've created a new template lets get our CMS up and running.
-
-1.  Open up your terminal.
-
-2.  Change into the new working directory
-
-    ```shell
-    cd new-template-name
-    ```
-
-3.  Start development mode
-
-    ```shell
+    cd my-blog-starter/
     gatsby develop
     ```
 
-    💡 This command starts a development server. You will be able to see and interact with your new site in a development environment — local (on your computer, not published to the internet).
+1.  **Open the source code and start editing!**
 
-4.  Open up a new tab in your browser (Chrome is best) and navigate to http://localhost:8000/
-    <br/>
-    <br/>
+    Your site is now running at `http://localhost:8000`!
 
-## 📖 Editor 2.0 Features
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-Deatils coming soon...
-<br/>
-<br/>
+    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 🚚 Deploy
+## 🧐 What's inside?
 
-All ready to go? Lets build our files and push your fancy new cover template to Github.
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-- **Build**
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-node.js
+    ├── gatsby-ssr.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
-  1.  Open up your terminal.
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-  2.  Stop your local server by typing <kbd>control</kbd> + <kbd>C</kbd>
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-  3.  Build your site with the prefix flag
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-      ```shell
-      gatsby build --prefix-paths
-      ```
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-      💡 We prefix the paths here because our external assets (images, css, javascript) are hosted from a separate domain. This url can be updated via the `gatsby-config.js` file in top level of your directory. By default it is set to `https://interactive.allure.com`.
-      <br/>
-      <br/>
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-- **Github**
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-  This tutorial in under the assumption that you have a Github account and have been added to the [Condé Nast Org](https://github.com/CondeNast). You may also need addtional permissions in order to write to this directory. Just contact me if so...
+7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-  1.  Open up your terminal.
+8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-  2.  Add all your changes in the working directory
+9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-      ```shell
-      git add .
-      ```
+10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-  3.  Save your changes to the local repository with a message
+11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-      ```shell
-      git commit -m"my first cover-template woo!"
-      ```
+12. **`README.md`**: A text file containing useful reference information about your project.
 
-  4.  Push your local change to Github
+## 🎓 Learning Gatsby
 
-      ```shell
-      git push
-      ```
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-      💡 This repository has separate `master` and `production` branches. Any code merged into these branches will be deployed to an equivalent S3 bucket. A corresponding Jenkins job will poll GitHub for changes. The timing of the polling can be adjusted as needed. By default, all changes on `master` are deployed to `staging`. Production deploys require changes to be merged from `master` into the `production` branch.
-      <br/>
-      <br/>
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-- **Copilot**
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-  1.  Create an article.
+## 💫 Deploy
 
-  2.  In the Taxonomy section add the following categories
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
 
-      -  `_override_header`
-
-      -  `_no-amp`
-
-  3.  Enter your Interactive Override URL (exmaple below)
-
-      `https://interactive.allure.com/new-template-name/public/index.html`
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-blog)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
