@@ -1,0 +1,83 @@
+
+  
+  @font-face {
+    font-family: Orelo;
+    font-weight: 500;
+    font-style: normal;
+    font-display: auto;
+    src: url(../../static/fonts/Orelo-StandardMedium.woff2) format("woff2"),
+      url(../../static/fonts/Orelo-StandardMedium.woff) format("woff");
+  }
+
+  @font-face {
+      font-family: Orelo;
+      font-weight: 400;
+      font-style: normal;
+      font-display: auto;
+      src: url(../../static/fonts/Orelo-Standard.woff2) format("woff2"),
+        url(../../static/fonts/Orelo-Standard.woff) format("woff");
+    }
+  
+    @font-face {
+      font-family: Orelo;
+      font-weight: 300;
+      font-style: normal;
+      font-display: auto;
+      src: url(../../static/fonts/Orelo-StandardLight.woff2) format("woff2"),
+        url(../../static/fonts/Orelo-StandardLight.woff) format("woff");
+    }
+  
+    @font-face {
+      font-family: Graphik;
+      font-weight: 400;
+      font-style: normal;
+      font-display: auto;
+      src: url(../../static/fonts/Graphik-Regular.woff2) format("woff2"),
+        url(../../static/fonts/Graphik-Regular.woff) format("woff");
+    }
+  
+    @font-face {
+      font-family: Graphik;
+      font-weight: 400;
+      font-style: italic;
+      font-display: auto;
+      src: url(../../static/fonts/Graphik-RegularItalic.woff2) format("woff2"),
+        url(../../static/fonts/Graphik-RegularItalic.woff) format("woff");
+    }
+  
+    @font-face {
+      font-family: Graphik;
+      font-weight: 500;
+      font-style: normal;
+      font-display: auto;
+      src: url(../../static/fonts/Graphik-Medium.woff2) format("woff2"),
+        url(../../static/fonts/Graphik-Medium.woff) format("woff");
+    }
+  
+    @font-face {
+      font-family: Graphik;
+      font-weight: 500;
+      font-style: italic;
+      font-display: auto;
+      src: url(../../static/fonts/Graphik-MediumItalic.woff2) format("woff2"),
+        url(../../static/fonts/Graphik-MediumItalic.woff) format("woff");
+    }
+  
+    @font-face {
+      font-family: Graphik;
+      font-weight: 600;
+      font-style: normal;
+      font-display: auto;
+      src: url(../../static/fonts/Graphik-Bold.woff2) format("woff2"),
+        url(../../static/fonts/Graphik-Bold.woff) format("woff");
+    }
+  
+    @font-face {
+      font-family: Graphik;
+      font-weight: 600;
+      font-style: italic;
+      font-display: auto;
+      src: url(../../static/fonts/Graphik-BoldItalic.woff2) format("woff2"),
+        url(../../static/fonts/Graphik-BoldItalic.woff) format("woff");
+    }
+  

@@ -1,0 +1,64 @@
+{
+  "blocks": [
+    {
+      "title": "Copy",
+      "copy": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+      "center_align": false,
+      "_template": "CopyBlock"
+    },
+    {
+      "title": "Quote",
+      "quote": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitr</p>",
+      "max_width": "1147",
+      "padding": "padding-none",
+      "_template": "QuoteBlock"
+    },
+    {
+      "ad_placement": "ad__slot--mid-content",
+      "margin": "margin-top",
+      "_template": "AdBlock"
+    },
+    {
+      "title": "Slide Show",
+      "slides": [
+        {
+          "id": "xkt89ewu3",
+          "image": "../assets/default.jpg",
+          "name": "New Slide",
+          "alttext": "Alt text for new slide"
+        },
+        {
+          "id": "slide-1-1",
+          "name": "Profile",
+          "image": "../assets/default.jpg",
+          "alttext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+        },
+        {
+          "id": "slide-1-2",
+          "name": "Profile",
+          "image": "../assets/default.jpg",
+          "alttext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+        },
+        {
+          "id": "slide-1-3",
+          "name": "Profile",
+          "image": "../assets/default.jpg",
+          "alttext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+        }
+      ],
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.",
+      "background_color": "#000000",
+      "text_color":"#6C6E70",
+      "_template": "SlideshowBlock"
+    },
+    {
+      "title": "Cover",
+      "cover_image": "../assets/default.jpg",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.",
+      "alttext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      "background_color": "#000000",
+      "text_color":"#6C6E70",
+      "_template": "CoverBlock"
+    }
+  ]
+}

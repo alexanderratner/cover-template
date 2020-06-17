@@ -1,22 +1,20 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+const path = require("path")
+
+const PROJECT_FILE_NAME = "cover-template"
 
 module.exports = {
-  /* Your site config here */
-  assetPrefix: `https://interactive.allure.com/cover-template/public/`,
+  assetPrefix: `https://interactive.allure.com/${PROJECT_FILE_NAME}/public/`,
   plugins: [
     `@wardpeet/gatsby-plugin-static-site`,
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
-        postCssPlugins: [require(`autoprefixer`)({ grid: 'autoplace' })],
+        postCssPlugins: [require(`autoprefixer`)({ grid: "autoplace" })],
+        cssLoaderOptions: {
+          camelCase: false,
+        },
       },
     },
-    // "gatsby-plugin-react-helmet",
-    "gatsby-transformer-json",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -45,23 +43,19 @@ module.exports = {
         path: `${__dirname}/content/assets`,
       },
     },
+    "gatsby-transformer-json",
     {
       resolve: "gatsby-plugin-sharp",
       options: {
         defaultQuality: 75,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-json-remark`,
-    //   options: {
-    //     paths: [`${__dirname}/content/data`], // Process all JSON files in these directories.
-    //   },
-    // },
     `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
+          `gatsby-remark-relative-images`,
           {
             resolve: "gatsby-remark-images",
             options: {
@@ -72,18 +66,18 @@ module.exports = {
         ],
       },
     },
-    "gatsby-tinacms-json",
     {
       resolve: "gatsby-plugin-tinacms",
       options: {
         plugins: [
+          "gatsby-tinacms-json",
           "gatsby-tinacms-remark",
           {
             resolve: "gatsby-tinacms-git",
             options: {
               pathToRepo: process.cwd(),
               pathToContent: "",
-              defaultCommitMessage: "chore: update from tina",
+              defaultCommitMessage: "Edited with TinaCMS",
               defaultCommitName: "TinaCMS",
               defaultCommitEmail: "git@tinacms.org",
               pushOnCommit: false,
@@ -92,7 +86,7 @@ module.exports = {
         ],
         sidebar: {
           hidden: process.env.NODE_ENV === "production",
-          position: 'displace'
+          position: "displace",
         },
       },
     },

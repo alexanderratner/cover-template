@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  max-width: 1147px;
+  height: auto;
+  padding: 86px 30px;
+  margin: 0 auto;
+}
+
+.container p {
+  font-family: Graphik, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  width: 100%;
+  margin: 0 0 1em;
+}
+
+.container p:last-of-type {
+  margin: 0;
+}
+
+.container p strong {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    padding: 43px 30px;
+    margin: 0 auto;
+  }
+  .container p {
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    line-height: 20px;
+  }
+}
